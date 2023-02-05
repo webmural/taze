@@ -1,13 +1,15 @@
 :root {
-  background: hotpink;
-  color: black;
+  background: darkviolet;
+  color: #ee1;
+  background-image: radial-gradient(darkviolet, blueviolet);
 }
 
 :any-link {
-  color: inherit;
+  background: hotpink;
+  color: indigo;
 }
 
 ::selection {
-  background: black;
-  color: hotpink;
+  background: #ee1;
+  color: darkviolet;
 }
